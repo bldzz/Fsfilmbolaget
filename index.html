@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <title>FS Filmbolaget - Oppenheimer</title>
 </head>
 <body>
 
     <!-- Header -->
     <header>
-        <h1>FS Filmbolaget</h1>
-        <img src="img/logo.png" alt="Movie logotyp" style="width: 100%; max-width: 100px;">
+        <div>
+            <div>  
+                
+                <h1><span style="color: rgb(250, 5, 5);"> FS </span>Filmbolaget</h1></div>
+            <div>
+             <img src="img/logo.png" alt="Movie logotyp" style="width: 100%; max-width: 100px;">
+            </div>
+        </div>
     </header>
 
     <!-- Main Content -->
@@ -18,37 +28,61 @@
 
         <!-- Information Section -->
         <section id="film-info">
-            <h2>Oppenheimer</h2>
-            <p><strong>Premiärdatum:</strong> 21 juli 2023</p>
-            <p><strong>Regissör:</strong> Christopher Nolan</p>
-            <p><strong>Skådespelare:</strong> Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr.</p>
-            <p><strong>Handling:</strong> Oppenheimer skildrar historien om J. Robert Oppenheimer och skapandet av
-                atombomben, ett projekt som förändrade världen för alltid. Filmen utforskar den vetenskapliga,
-                moraliska och personliga kampen hos forskarna och ledarna bakom Manhattan-projektet.</p>
+            <div>
+                <h2 class="size1" >Oppenheimer</h2>
+            </div>
+            
+            <div>
+                <p><div class="size2">Premiärdatum:</div> 21 juli 2023</p>
+             </div>
+             <div>
+                 
+                 <p> <div class="size2">Regissör:</div>Christopher Nolan</p>
+             </div>
+            
+             <div>
+
+                 <p> <div class="size2">Skådespelare:</div>Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr.</p>
+             </div>
+            
+             <div>
+                <p><div class="size2 underline">Handling:</div> Oppenheimer skildrar historien om J. Robert Oppenheimer och skapandet av
+                    atombomben, ett projekt som förändrade världen för alltid. Filmen utforskar den vetenskapliga,
+                    moraliska och personliga kampen hos forskarna och ledarna bakom Manhattan-projektet.</p>
+             </div>
+           
         </section>
 
         <!-- Video Section -->
         <section id="film-trailer">
-            <h2>Se trailern</h2>
-            <embed  type="video/webm" src="https://www.youtube.com/embed/uYPbbksJxIg" width="560" height="315" >
+            <h2>Trailer:</h2>
+            <embed class="film-size" type="video/webm" src="https://www.youtube.com/embed/uYPbbksJxIg" >
         </section>
 
         <!-- Relevant Links Section -->
+      
         <section id="relevant-links">
-            <h2>Relaterade länkar</h2>
+            <h2 class="black">Relaterade länkar</h2>
             <ul>
-                <li><a href="https://www.imdb.com/title/tt15398776/" target="_blank">IMDb-sida</a></li>
+                <li><a href="https://www.imdb.com/title/tt15398776/" target="_blank">IMDb</a></li>
                 <li><a href="https://www.universalpictures.se/micro/oppenheimer" target="_blank">Officiell webbplats</a></li>
             </ul>
         </section>
-
+         
     </main>
 
     <!-- Footer -->
-    <footer>
-        <p>Webmaster: BLDZZ</p>
-        <p>Uppdrag för Filmbolaget FS</p>
-        <p>Made with ❤️</p>
+    
+    <footer class="footer">
+        <div>
+            <p>Webmaster: Bldzz</p>
+        </div>
+        <div>
+            <p>Uppdrag för Filmbolaget FS</p>
+        </div>
+        <div class="statement">
+             <p>Made with ❤️</p>
+        </div>
     </footer>
 
 </body>
